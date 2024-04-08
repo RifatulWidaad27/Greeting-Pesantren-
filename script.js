@@ -4,7 +4,7 @@ const nameInput = document.getElementById("name");
 const downloadBtn = document.getElementById("download-btn");
 
 const image = new Image();
-image.src = "Main.png";
+image.src = "MLM1.png";
 image.onload = function () {
   drawImage();
 };
@@ -15,7 +15,7 @@ function drawImage() {
   // ctx.clearRect(0, 0, canvas.width, canvas.height)
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
   ctx.font = "30px ara hamah kilania";
-  ctx.fillStyle = "#FFFFFF";
+  ctx.fillStyle = "#000000";
   ctx.textBaseline = "middle";
   ctx.textAlign = "center";
 
