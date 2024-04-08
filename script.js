@@ -15,11 +15,14 @@ function drawImage() {
   // ctx.clearRect(0, 0, canvas.width, canvas.height)
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
   ctx.font = "30px ara hamah kilania";
-  ctx.fillStyle = "#F6F6F6";
+  ctx.fillStyle = "#FFFFFF";
   ctx.textBaseline = "middle";
   ctx.textAlign = "center";
 
-  ctx.fillText(nameInput.value, canvas.width / 2, 840);
+  ctx.fillText(nameInput.value, canvas.width / 2, 841);
+}
+
+ ctx.fillText(nameInput.value, canvas.height / 2, 232);
 }
 
 nameInput.addEventListener("input", function () {
