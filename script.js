@@ -4,7 +4,7 @@ const nameInput = document.getElementById("name");
 const downloadBtn = document.getElementById("download-btn");
 
 const image = new Image();
-image.src = "design.png";
+image.src = "Main.png";
 image.onload = function () {
   drawImage();
 };
