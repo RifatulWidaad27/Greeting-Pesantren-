@@ -19,10 +19,7 @@ function drawImage() {
   ctx.textBaseline = "middle";
   ctx.textAlign = "center";
 
-  ctx.fillText(nameInput.value, canvas.width / 2, 841);
-}
-
- ctx.fillText(nameInput.value, canvas.height / 2, 232);
+  ctx.fillText(nameInput.value, canvas.width / 2, 860);
 }
 
 nameInput.addEventListener("input", function () {
